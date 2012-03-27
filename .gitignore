@@ -1,3 +1,7 @@
+## New for Mac Trashes and XCode 4
+.DS_Store
+CHCSVParser.xcodeproj/xcuserdata/*
+
 build
 **/*.perspective*
 **/*.pbxuser
