@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24894C8B1521CA8400E1F0E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24894C8A1521CA8400E1F0E9 /* Foundation.framework */; };
+		24894C9C1521CD8C00E1F0E9 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 551981D51203715400FBE033 /* CHCSVParser.m */; };
+		24894C9D1521CD8C00E1F0E9 /* CHCSVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EFC7B81210608C0070B303 /* CHCSVWriter.m */; };
+		24894C9E1521CD8C00E1F0E9 /* NSArray+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 557FD0421204A45D009FCDBA /* NSArray+CHCSVAdditions.m */; };
+		24894C9F1521CD8C00E1F0E9 /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5516BCB412578CFC0025F235 /* NSString+CHCSVAdditions.m */; };
+		24894CA01521CDD000E1F0E9 /* CHCSV.h in Headers */ = {isa = PBXBuildFile; fileRef = 5516BCB612578D480025F235 /* CHCSV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24894CA11521CDD000E1F0E9 /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 551981D41203715400FBE033 /* CHCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24894CA21521CDD000E1F0E9 /* CHCSVWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EFC7B71210608C0070B303 /* CHCSVWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24894CA31521CDD000E1F0E9 /* NSArray+CHCSVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 557FD0411204A45D009FCDBA /* NSArray+CHCSVAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24894CA41521CDD000E1F0E9 /* NSString+CHCSVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5516BCB312578CFC0025F235 /* NSString+CHCSVAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5516BCB512578CFC0025F235 /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5516BCB412578CFC0025F235 /* NSString+CHCSVAdditions.m */; };
 		5516BCBB12578EA90025F235 /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5516BCB412578CFC0025F235 /* NSString+CHCSVAdditions.m */; };
 		551981D61203715400FBE033 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 551981D51203715400FBE033 /* CHCSVParser.m */; };
@@ -40,6 +50,11 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		24894C881521CA8400E1F0E9 /* libCHCSVParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCHCSVParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24894C8A1521CA8400E1F0E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24894C8E1521CA8400E1F0E9 /* CXCSVParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CXCSVParser-Prefix.pch"; sourceTree = "<group>"; };
+		24894C8F1521CA8400E1F0E9 /* CXCSVParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXCSVParser.h; sourceTree = "<group>"; };
+		24894C901521CA8400E1F0E9 /* CXCSVParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXCSVParser.m; sourceTree = "<group>"; };
 		32A70AAB03705E1F00C91783 /* CHCSVParser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser_Prefix.pch; sourceTree = "<group>"; };
 		5516BCB312578CFC0025F235 /* NSString+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CHCSVAdditions.h"; sourceTree = "<group>"; };
 		5516BCB412578CFC0025F235 /* NSString+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CHCSVAdditions.m"; sourceTree = "<group>"; };
@@ -62,6 +77,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		24894C851521CA8400E1F0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24894C8B1521CA8400E1F0E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		557FD0501204A70D009FCDBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +110,8 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				24894C8C1521CA8400E1F0E9 /* CXCSVParser */,
+				24894C891521CA8400E1F0E9 /* Frameworks */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				557FCEB51203F938009FCDBA /* CoreServices.framework */,
 				557FD0541204A70D009FCDBA /* Unit Tests-Info.plist */,
@@ -121,8 +146,35 @@
 			children = (
 				8DD76FA10486AA7600D96B5E /* CHCSVParser */,
 				557FD0531204A70D009FCDBA /* Unit Tests.octest */,
+				24894C881521CA8400E1F0E9 /* libCHCSVParser.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		24894C891521CA8400E1F0E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24894C8A1521CA8400E1F0E9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24894C8C1521CA8400E1F0E9 /* CXCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				24894C8F1521CA8400E1F0E9 /* CXCSVParser.h */,
+				24894C901521CA8400E1F0E9 /* CXCSVParser.m */,
+				24894C8D1521CA8400E1F0E9 /* Supporting Files */,
+			);
+			path = CXCSVParser;
+			sourceTree = "<group>";
+		};
+		24894C8D1521CA8400E1F0E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24894C8E1521CA8400E1F0E9 /* CXCSVParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5516BCBA12578DA90025F235 /* CHCSVParser */ = {
@@ -151,7 +203,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		24894C861521CA8400E1F0E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24894CA01521CDD000E1F0E9 /* CHCSV.h in Headers */,
+				24894CA11521CDD000E1F0E9 /* CHCSVParser.h in Headers */,
+				24894CA21521CDD000E1F0E9 /* CHCSVWriter.h in Headers */,
+				24894CA31521CDD000E1F0E9 /* NSArray+CHCSVAdditions.h in Headers */,
+				24894CA41521CDD000E1F0E9 /* NSString+CHCSVAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		24894C871521CA8400E1F0E9 /* CHCSVParser-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24894C921521CA8400E1F0E9 /* Build configuration list for PBXNativeTarget "CHCSVParser-ios" */;
+			buildPhases = (
+				24894C841521CA8400E1F0E9 /* Sources */,
+				24894C851521CA8400E1F0E9 /* Frameworks */,
+				24894C861521CA8400E1F0E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CHCSVParser-ios";
+			productName = CXCSVParser;
+			productReference = 24894C881521CA8400E1F0E9 /* libCHCSVParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		557FD0521204A70D009FCDBA /* Unit Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 557FD0571204A70E009FCDBA /* Build configuration list for PBXNativeTarget "Unit Tests" */;
@@ -212,6 +296,7 @@
 			targets = (
 				8DD76F960486AA7600D96B5E /* CHCSVParser */,
 				557FD0521204A70D009FCDBA /* Unit Tests */,
+				24894C871521CA8400E1F0E9 /* CHCSVParser-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +330,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		24894C841521CA8400E1F0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24894C9C1521CD8C00E1F0E9 /* CHCSVParser.m in Sources */,
+				24894C9D1521CD8C00E1F0E9 /* CHCSVWriter.m in Sources */,
+				24894C9E1521CD8C00E1F0E9 /* NSArray+CHCSVAdditions.m in Sources */,
+				24894C9F1521CD8C00E1F0E9 /* NSString+CHCSVAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		557FD04F1204A70D009FCDBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +380,7 @@
 				GCC_PREFIX_HEADER = CHCSVParser_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = CHCSVParser;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -297,6 +394,7 @@
 				GCC_PREFIX_HEADER = CHCSVParser_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = CHCSVParser;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -321,6 +419,64 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24894C931521CA8400E1F0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/CHCSVParser_ios.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHCSVParser-ios_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CHCSVParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		24894C941521CA8400E1F0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/CHCSVParser_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHCSVParser-ios_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CHCSVParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -394,6 +550,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		24894C921521CA8400E1F0E9 /* Build configuration list for PBXNativeTarget "CHCSVParser-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24894C931521CA8400E1F0E9 /* Debug */,
+				24894C941521CA8400E1F0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		557FD0571204A70E009FCDBA /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;

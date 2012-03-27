@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CXCSVParser' target in the 'CXCSVParser' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif
